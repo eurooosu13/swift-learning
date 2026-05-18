@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-learning}",
+            "name": "Debug kanban",
+            "target": "kanban",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug kanban"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-learning}",
+            "name": "Release kanban",
+            "target": "kanban",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release kanban"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-learning}",
+            "name": "Debug KanbanBoardApp",
+            "target": "KanbanBoardApp",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug KanbanBoardApp"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-learning}",
+            "name": "Release KanbanBoardApp",
+            "target": "KanbanBoardApp",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release KanbanBoardApp"
+        }
+    ]
+}

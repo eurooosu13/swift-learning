@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111111111111111111111001 /* CardPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110001 /* CardPriority.swift */; };
+		111111111111111111111002 /* CardStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110002 /* CardStatus.swift */; };
+		111111111111111111111003 /* KanbanCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110003 /* KanbanCard.swift */; };
+		111111111111111111111004 /* KanbanCardDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110004 /* KanbanCardDraft.swift */; };
+		111111111111111111111005 /* CardFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110005 /* CardFilter.swift */; };
+		111111111111111111111006 /* CardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110006 /* CardStore.swift */; };
+		111111111111111111111007 /* KanbanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110007 /* KanbanService.swift */; };
+		111111111111111111111008 /* AsyncCardLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110008 /* AsyncCardLoader.swift */; };
+		111111111111111111111009 /* DateParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110009 /* DateParsing.swift */; };
+		111111111111111111111010 /* StringNormalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110010 /* StringNormalization.swift */; };
+		111111111111111111111101 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110101 /* CardModel.swift */; };
+		111111111111111111111102 /* KanbanBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110102 /* KanbanBoardApp.swift */; };
+		111111111111111111111103 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110103 /* ContentView.swift */; };
+		111111111111111111111104 /* CardEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110104 /* CardEditorView.swift */; };
+		111111111111111111111201 /* KanbanCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110201 /* KanbanCoreTests.swift */; };
+		111111111111111111111301 /* KanbanBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111110301 /* KanbanBoardUITests.swift */; };
+		111111111111111111111401 /* libKanbanCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 111111111111111111110901 /* libKanbanCore.a */; };
+		111111111111111111111402 /* libKanbanCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 111111111111111111110901 /* libKanbanCore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		111111111111111111112001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111111111111111111119000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 111111111111111111113001;
+			remoteInfo = KanbanCore;
+		};
+		111111111111111111112002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111111111111111111119000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 111111111111111111113002;
+			remoteInfo = KanbanBoardApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111111111111111111110001 /* CardPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPriority.swift; sourceTree = "<group>"; };
+		111111111111111111110002 /* CardStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStatus.swift; sourceTree = "<group>"; };
+		111111111111111111110003 /* KanbanCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanCard.swift; sourceTree = "<group>"; };
+		111111111111111111110004 /* KanbanCardDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanCardDraft.swift; sourceTree = "<group>"; };
+		111111111111111111110005 /* CardFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFilter.swift; sourceTree = "<group>"; };
+		111111111111111111110006 /* CardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStore.swift; sourceTree = "<group>"; };
+		111111111111111111110007 /* KanbanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanService.swift; sourceTree = "<group>"; };
+		111111111111111111110008 /* AsyncCardLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncCardLoader.swift; sourceTree = "<group>"; };
+		111111111111111111110009 /* DateParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateParsing.swift; sourceTree = "<group>"; };
+		111111111111111111110010 /* StringNormalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringNormalization.swift; sourceTree = "<group>"; };
+		111111111111111111110101 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		111111111111111111110102 /* KanbanBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanBoardApp.swift; sourceTree = "<group>"; };
+		111111111111111111110103 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		111111111111111111110104 /* CardEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEditorView.swift; sourceTree = "<group>"; };
+		111111111111111111110201 /* KanbanCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanCoreTests.swift; sourceTree = "<group>"; };
+		111111111111111111110301 /* KanbanBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanBoardUITests.swift; sourceTree = "<group>"; };
+		111111111111111111110901 /* libKanbanCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKanbanCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		111111111111111111110902 /* KanbanBoardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanbanBoardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		111111111111111111110903 /* KanbanCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanbanCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		111111111111111111110904 /* KanbanBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanbanBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111111111111111111114002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (111111111111111111111401 /* libKanbanCore.a in Frameworks */,); runOnlyForDeploymentPostprocessing = 0; };
+		111111111111111111114003 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (111111111111111111111402 /* libKanbanCore.a in Frameworks */,); runOnlyForDeploymentPostprocessing = 0; };
+		111111111111111111114004 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111111111111111111115000 = {
+			isa = PBXGroup;
+			children = (
+				111111111111111111115001 /* Sources */,
+				111111111111111111115002 /* Tests */,
+				111111111111111111115003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		111111111111111111115001 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				111111111111111111115101 /* KanbanCore */,
+				111111111111111111115102 /* KanbanBoardApp */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		111111111111111111115101 /* KanbanCore */ = {
+			isa = PBXGroup;
+			children = (
+				111111111111111111110001 /* CardPriority.swift */,
+				111111111111111111110002 /* CardStatus.swift */,
+				111111111111111111110003 /* KanbanCard.swift */,
+				111111111111111111110004 /* KanbanCardDraft.swift */,
+				111111111111111111110005 /* CardFilter.swift */,
+				111111111111111111110006 /* CardStore.swift */,
+				111111111111111111110007 /* KanbanService.swift */,
+				111111111111111111110008 /* AsyncCardLoader.swift */,
+				111111111111111111110009 /* DateParsing.swift */,
+				111111111111111111110010 /* StringNormalization.swift */,
+			);
+			path = KanbanCore;
+			sourceTree = "<group>";
+		};
+		111111111111111111115102 /* KanbanBoardApp */ = {
+			isa = PBXGroup;
+			children = (
+				111111111111111111110101 /* CardModel.swift */,
+				111111111111111111110102 /* KanbanBoardApp.swift */,
+				111111111111111111110103 /* ContentView.swift */,
+				111111111111111111110104 /* CardEditorView.swift */,
+			);
+			path = KanbanBoardApp;
+			sourceTree = "<group>";
+		};
+		111111111111111111115002 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				111111111111111111115201 /* KanbanCoreTests */,
+				111111111111111111115301 /* KanbanBoardUITests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		111111111111111111115201 /* KanbanCoreTests */ = {isa = PBXGroup; children = (111111111111111111110201 /* KanbanCoreTests.swift */,); path = KanbanCoreTests; sourceTree = "<group>"; };
+		111111111111111111115301 /* KanbanBoardUITests */ = {isa = PBXGroup; children = (111111111111111111110301 /* KanbanBoardUITests.swift */,); path = KanbanBoardUITests; sourceTree = "<group>"; };
+		111111111111111111115003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				111111111111111111110901 /* libKanbanCore.a */,
+				111111111111111111110902 /* KanbanBoardApp.app */,
+				111111111111111111110903 /* KanbanCoreTests.xctest */,
+				111111111111111111110904 /* KanbanBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		111111111111111111113001 /* KanbanCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111111111111111111116101 /* Build configuration list for PBXNativeTarget "KanbanCore" */;
+			buildPhases = (111111111111111111114001 /* Sources */,);
+			buildRules = ();
+			dependencies = ();
+			name = KanbanCore;
+			productName = KanbanCore;
+			productReference = 111111111111111111110901 /* libKanbanCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		111111111111111111113002 /* KanbanBoardApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111111111111111111116102 /* Build configuration list for PBXNativeTarget "KanbanBoardApp" */;
+			buildPhases = (111111111111111111114101 /* Sources */, 111111111111111111114002 /* Frameworks */, 111111111111111111114202 /* Resources */);
+			buildRules = ();
+			dependencies = (111111111111111111117001 /* PBXTargetDependency */,);
+			name = KanbanBoardApp;
+			productName = KanbanBoardApp;
+			productReference = 111111111111111111110902 /* KanbanBoardApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		111111111111111111113003 /* KanbanCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111111111111111111116103 /* Build configuration list for PBXNativeTarget "KanbanCoreTests" */;
+			buildPhases = (111111111111111111114102 /* Sources */, 111111111111111111114003 /* Frameworks */, 111111111111111111114203 /* Resources */);
+			buildRules = ();
+			dependencies = (111111111111111111117001 /* PBXTargetDependency */,);
+			name = KanbanCoreTests;
+			productName = KanbanCoreTests;
+			productReference = 111111111111111111110903 /* KanbanCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		111111111111111111113004 /* KanbanBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111111111111111111116104 /* Build configuration list for PBXNativeTarget "KanbanBoardUITests" */;
+			buildPhases = (111111111111111111114103 /* Sources */, 111111111111111111114004 /* Frameworks */, 111111111111111111114204 /* Resources */);
+			buildRules = ();
+			dependencies = (111111111111111111117002 /* PBXTargetDependency */,);
+			name = KanbanBoardUITests;
+			productName = KanbanBoardUITests;
+			productReference = 111111111111111111110904 /* KanbanBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		111111111111111111119000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					111111111111111111113001 = {CreatedOnToolsVersion = 26.5;};
+					111111111111111111113002 = {CreatedOnToolsVersion = 26.5;};
+					111111111111111111113003 = {CreatedOnToolsVersion = 26.5; TestTargetID = 111111111111111111113001;};
+					111111111111111111113004 = {CreatedOnToolsVersion = 26.5; TestTargetID = 111111111111111111113002;};
+				};
+			};
+			buildConfigurationList = 111111111111111111116000 /* Build configuration list for PBXProject "KanbanBoard" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 111111111111111111115000;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 111111111111111111115003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (111111111111111111113001, 111111111111111111113002, 111111111111111111113003, 111111111111111111113004);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		111111111111111111114202 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		111111111111111111114203 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		111111111111111111114204 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		111111111111111111114001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (111111111111111111111001,111111111111111111111002,111111111111111111111003,111111111111111111111004,111111111111111111111005,111111111111111111111006,111111111111111111111007,111111111111111111111008,111111111111111111111009,111111111111111111111010); runOnlyForDeploymentPostprocessing = 0; };
+		111111111111111111114101 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (111111111111111111111101,111111111111111111111102,111111111111111111111103,111111111111111111111104); runOnlyForDeploymentPostprocessing = 0; };
+		111111111111111111114102 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (111111111111111111111201); runOnlyForDeploymentPostprocessing = 0; };
+		111111111111111111114103 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (111111111111111111111301); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		111111111111111111117001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 111111111111111111113001 /* KanbanCore */; targetProxy = 111111111111111111112001 /* PBXContainerItemProxy */; };
+		111111111111111111117002 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 111111111111111111113002 /* KanbanBoardApp */; targetProxy = 111111111111111111112002 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		111111111111111111116001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; ARCHS = arm64; CLANG_ENABLE_MODULES = YES; ENABLE_TESTABILITY = YES; GCC_NO_COMMON_BLOCKS = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; ONLY_ACTIVE_ARCH = YES; SDKROOT = macosx; SWIFT_VERSION = 6.0; }; name = Debug; };
+		111111111111111111116002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; ARCHS = arm64; CLANG_ENABLE_MODULES = YES; GCC_NO_COMMON_BLOCKS = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; ONLY_ACTIVE_ARCH = YES; SDKROOT = macosx; SWIFT_VERSION = 6.0; }; name = Release; };
+		111111111111111111116111 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGNING_ALLOWED = NO; PRODUCT_NAME = KanbanCore; SKIP_INSTALL = YES; SWIFT_VERSION = 6.0; }; name = Debug; };
+		111111111111111111116112 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGNING_ALLOWED = NO; PRODUCT_NAME = KanbanCore; SKIP_INSTALL = YES; SWIFT_VERSION = 6.0; }; name = Release; };
+		111111111111111111116121 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Kanban Board"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.KanbanBoard; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; }; name = Debug; };
+		111111111111111111116122 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Kanban Board"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.KanbanBoard; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; }; name = Release; };
+		111111111111111111116131 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = ""; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.example.KanbanCoreTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TEST_HOST = ""; }; name = Debug; };
+		111111111111111111116132 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = ""; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.example.KanbanCoreTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TEST_HOST = ""; }; name = Release; };
+		111111111111111111116141 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.example.KanbanBoardUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TEST_TARGET_NAME = KanbanBoardApp; }; name = Debug; };
+		111111111111111111116142 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.example.KanbanBoardUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TEST_TARGET_NAME = KanbanBoardApp; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		111111111111111111116000 /* Build configuration list for PBXProject "KanbanBoard" */ = {isa = XCConfigurationList; buildConfigurations = (111111111111111111116001, 111111111111111111116002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		111111111111111111116101 /* Build configuration list for PBXNativeTarget "KanbanCore" */ = {isa = XCConfigurationList; buildConfigurations = (111111111111111111116111, 111111111111111111116112); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		111111111111111111116102 /* Build configuration list for PBXNativeTarget "KanbanBoardApp" */ = {isa = XCConfigurationList; buildConfigurations = (111111111111111111116121, 111111111111111111116122); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		111111111111111111116103 /* Build configuration list for PBXNativeTarget "KanbanCoreTests" */ = {isa = XCConfigurationList; buildConfigurations = (111111111111111111116131, 111111111111111111116132); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		111111111111111111116104 /* Build configuration list for PBXNativeTarget "KanbanBoardUITests" */ = {isa = XCConfigurationList; buildConfigurations = (111111111111111111116141, 111111111111111111116142); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 111111111111111111119000 /* Project object */;
+}

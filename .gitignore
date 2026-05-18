@@ -1,0 +1,8 @@
+.DS_Store
+.build/
+.swiftpm/
+.kanban/
+DerivedData/
+*.xcuserdata/
+*.xcuserstate
+*.xcresult

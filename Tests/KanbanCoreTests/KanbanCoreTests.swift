@@ -91,4 +91,11 @@ final class KanbanCoreTests: XCTestCase {
 
         XCTAssertEqual(cards, [card])
     }
+
+    // Day1: Test String Blank Detection
+    func testStringBlankDection() throws {
+        XCTAssertTrue("   ".isBlank)
+        XCTAssertTrue("\n\t".isBlank)
+        XCTAssertFalse("  a  ".isBlank)
+    }
 }

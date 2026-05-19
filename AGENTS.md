@@ -32,6 +32,10 @@ Use Swift 6 style with 4-space indentation, explicit access control for public A
 
 Use XCTest. Add or update `KanbanCoreTests` for domain, parsing, filtering, persistence, and service behavior. Add UI tests only for full app workflows or accessibility-driven interactions. Keep accessibility identifiers stable because UI tests depend on them. Run `swift test` before commits that touch `KanbanCore`; run the Xcode `test` command when app UI or SwiftData behavior changes.
 
+## Review Guidelines
+
+Review code for correctness, user-visible regressions, missing tests, and fit with the target boundaries above. Call out findings first, ordered by severity, and include specific file and line references when possible. Check that shared behavior remains in `KanbanCore`, CLI behavior stays in `Sources/kanban`, and SwiftUI or SwiftData changes stay in `Sources/KanbanBoardApp`. Note any verification you performed, and explicitly mention residual risk when tests were skipped or coverage is limited.
+
 ## Commit & Pull Request Guidelines
 
 Recent commits are short, imperative summaries such as `Initial Swift Kanban learning project`. Keep commit subjects concise and describe the user-visible change. Pull requests should include a brief description, tests run, linked issue or course task when applicable, and screenshots only for visible UI changes. Note any skipped verification with the reason.

@@ -12,6 +12,23 @@ final class KanbanCoreTests: XCTestCase {
         XCTAssertNil(CardStatus.parse("blocked"))
     }
 
+    // Day2: extend CardStatus.parse to short abbreviations
+    func testStatusParsingShortAbbreviations() throws {
+        XCTAssertEqual(CardStatus.parse("t"), CardStatus.todo)
+        XCTAssertEqual(CardStatus.parse("ip"), .inProgress)
+        XCTAssertEqual(CardStatus.parse("d"), .done)
+    }
+
+    // Day2: print rawValue of each status
+    func testEnumRawValuesMatchDisplayNames() throws {
+        print("===== testEnumRawValuesMatchDisplayNames start =====")
+        for (i, status) in CardStatus.allCases.enumerated() {
+            print("status[\(i)].rawValue: \(status.rawValue), .displayName: \(status.displayName)")
+            XCTAssertEqual(status.rawValue, status.displayName.lowercased().normalizedToken)
+        }
+        print("===== testEnumRawValuesMatchDisplayNames end =====")
+    }
+
     func testPriorityParsingAndOrdering() throws {
         XCTAssertEqual(CardPriority.parse("low"), .low)
         XCTAssertEqual(CardPriority.parse("medium"), .medium)

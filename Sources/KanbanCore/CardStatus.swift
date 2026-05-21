@@ -25,9 +25,9 @@ public enum CardStatus: String, CaseIterable, Codable, Identifiable, Sendable {
 
     public static func parse(_ input: String) -> CardStatus? {
         switch input.normalizedToken {
-        case "todo", "to-do", "backlog": .todo
-        case "in-progress", "inprogress", "doing", "wip": .inProgress
-        case "done", "complete", "completed": .done
+        case "todo", "to-do", "backlog", "t": .todo
+        case "in-progress", "inprogress", "doing", "wip", "ip": .inProgress
+        case "done", "complete", "completed", "d": .done
         default: nil
         }
     }
